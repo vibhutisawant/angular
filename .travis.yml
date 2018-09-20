@@ -1,3 +1,4 @@
+#added support for ppc64le
 os: linux-ppc64le
 language: node_js
 sudo: false
