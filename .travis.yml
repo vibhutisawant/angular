@@ -69,7 +69,7 @@ install:
 
 script:
   - ./scripts/ci/build.sh
-  - ./scripts/ci/test.sh
+  #- ./scripts/ci/test.sh
   # deploy is part of 'script' and not 'after_success' so that we fail the build if the deployment fails
   - ./scripts/ci/deploy.sh
   - ./scripts/ci/angular.sh
